@@ -1,0 +1,37 @@
+﻿  main.cpp
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(13,12): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(14,26): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(16,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(38,13): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(41,13): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(8,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(9,29): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(16,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(17,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(40,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(55,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(57,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(54,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(55,41): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  Sorting Visualizer.vcxproj -> C:\Users\James\source\repos\Sorting Visualizer\Debug\Sorting Visualizer.exe
