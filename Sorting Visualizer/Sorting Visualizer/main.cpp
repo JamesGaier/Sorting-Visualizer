@@ -5,22 +5,25 @@
 #include"algos.h"
 #include"rectangle.h"
 #include<thread>
-constexpr int NUM_RECTS = 100;
+constexpr int NUM_RECTS = 30;
 constexpr std::pair<int, int> size{ std::make_pair(600,600) };
 std::vector<Rectangle> genRects();
-
+bool isSorted(std::vector<Rectangle>& rects) {
+    auto sorted = true;
+    for (auto i = 0; i < rects.size() - 1; i++) {
+        if (rects[i] > rects[i + 1]) {
+            sorted = false;
+        }
+    }
+    return sorted;
+}
 int main() {
     
     srand(time(NULL));
-    std::vector<int> a{ 1,4,6,1,2,3,5,1,7 };
     sf::RenderWindow window(sf::VideoMode(size.first, size.second), "Sorting Visualizer");
-    
-    for (const auto& el : a) {
-        std::cout << el << std::endl;
-    }
-    
 
     std::vector<Rectangle> rects = genRects();
+
     sf::Event event;
     while (window.isOpen()) {
         while (window.pollEvent(event)) {
@@ -29,11 +32,17 @@ int main() {
             }
         }
         window.clear();
-        selectionSort(rects, window);
-        //rects = mergeSort(rects, window);
-        for (auto& rect : rects) {
-            rect.render(window);
+        if (not isSorted(rects)) {
+            mergeSort(rects, 0, rects.size()-1, window);
         }
+        else {
+            for (auto& rect : rects) {
+                rect.render(window);
+            }
+        }
+        
+
+
         window.display();
     }
     return 0;

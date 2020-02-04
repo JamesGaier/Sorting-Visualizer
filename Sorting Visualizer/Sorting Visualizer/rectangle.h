@@ -6,10 +6,11 @@ private:
 	sf::Vector2f pos;
 	sf::Vector2f size;
 	sf::RectangleShape rect;
+	int GRID_SIZE;
 	sf::Color rect_color{ sf::Color::White };
 public:
 	Rectangle(const int i, const int w_height, const int num_rects) {
-		const int GRID_SIZE = w_height/num_rects;
+		GRID_SIZE = w_height/num_rects;
 		size.x = GRID_SIZE;
 		size.y = GRID_SIZE * i + GRID_SIZE;
 
@@ -39,6 +40,9 @@ public:
 	}
 	int getY() const {
 		return pos.y;
+	}
+	int getGridSize() const {
+		return GRID_SIZE;
 	}
 	sf::Vector2f getSize() const {
 		return size;

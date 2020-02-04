@@ -4,6 +4,7 @@
 #include<algorithm>
 #include<chrono>
 #include"rectangle.h"
+
 void swap(int a, int b, std::vector<Rectangle>& rects) {
 	float temp = rects[a].getX();
 	rects[a].setX(rects[b].getX());
@@ -69,6 +70,78 @@ void selectionSort(std::vector<Rectangle>& rects, sf::RenderWindow& window) {
 		window.display();
 	}
 }
-void mergeSort(std::vector<Rectangle>& rects, sf::RenderWindow& window) {
 
+void merge(std::vector<Rectangle>& arr, int low, int mid, int high, sf::RenderWindow& window)
+{
+	
+    int leftLen = mid - low + 1;
+    int rightLen = high - mid;
+	
+
+	std::vector<Rectangle> L(leftLen);
+	std::vector<Rectangle> R(rightLen);
+
+	for (auto i = 0; i < leftLen; i++) {
+        L[i] = arr[low + i];
+
+	}
+    for (auto j = 0; j < rightLen; j++)
+        R[j] = arr[mid + 1 + j];
+
+    int i = 0, j = 0, k = low;
+    while (i < leftLen && j < rightLen)
+    {
+        if (L[i] < R[j])
+        {
+            arr[k] = L[i];
+			arr[k].setX(k * arr[k].getGridSize());
+            i++;
+        }
+        else
+        {
+            arr[k] = R[j];
+			arr[k].setX(k * arr[k].getGridSize());
+            j++;
+        }
+        k++;
+    }
+
+
+    while (i < leftLen)
+    {
+        arr[k] = L[i];
+		arr[k].setX(k * arr[k].getGridSize());
+        i++;
+        k++;
+    }
+
+    while (j < rightLen)
+    {
+        arr[k] = R[j];
+		arr[k].setX(k * arr[k].getGridSize());
+        j++;
+        k++;
+    }
+	window.clear();
+	for (auto& rect : arr) {
+		rect.render(window);
+	}
+	sf::sleep(sf::milliseconds(200));
+	window.display();
+}
+
+
+void mergeSort(std::vector<Rectangle>& rects, const int low, const int high, sf::RenderWindow& window)
+{
+	
+    if (low < high){
+        int mid = low + (high - low) / 2;
+
+        mergeSort(rects, low, mid, window);
+		
+        mergeSort(rects, mid + 1, high, window);
+
+        merge(rects, low, mid, high, window);
+		
+    }
 }

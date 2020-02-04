@@ -1,37 +1,42 @@
 ﻿  main.cpp
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(13,12): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(14,12): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(14,26): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(15,26): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(16,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(17,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(38,13): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(39,13): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(41,13): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\rectangle.h(42,13): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(8,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(9,29): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(16,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(17,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(40,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(55,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(57,25): warning C4018: '<': signed/unsigned mismatch
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(54,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(55,41): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(9,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(10,29): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(17,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(18,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(41,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(56,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(58,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(98,18): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(104,18): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(114,17): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\algos.h(122,17): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(13,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(22,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(63,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\James\source\repos\Sorting Visualizer\Sorting Visualizer\main.cpp(64,41): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
   Sorting Visualizer.vcxproj -> C:\Users\James\source\repos\Sorting Visualizer\Debug\Sorting Visualizer.exe
